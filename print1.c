@@ -1,3 +1,4 @@
+//print output
 #include<stdio.h>
 void main()
 {

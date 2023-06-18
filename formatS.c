@@ -1,3 +1,4 @@
+//format specifier
 // #include<stdio.h>
 // int main()
 // {
@@ -16,6 +17,7 @@
 //     printf("\n your entered number is %f\t\a",x);
 // }
 
+//use of constant
 #include <stdio.h>
 #define PI 3.14
 /* this is a multiline comment

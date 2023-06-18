@@ -1,3 +1,4 @@
+//sum of two number given by user.
 #include <stdio.h>
 int main()
 {
