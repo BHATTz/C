@@ -4,7 +4,7 @@
 // {
 //   int ar, x=2, y=2;
 //   ar = x * y;
-//   printf("\narea of the rectangle is %d\n", ar);
+//   printf("\n area of the rectangle is : %d\n", ar);
 // }
 
 
@@ -18,7 +18,7 @@
 //   printf("enter width of a rectangle : ");
 //   scanf("%d", &y);
 //   ar = x * y;
-//   printf("\narea of the rectangle is %d\n", ar);
+//   printf("\n area of the rectangle is : %d\n", ar);
 // }
 
 
@@ -33,7 +33,7 @@
 //   printf("enter the height of a circle : ");
 //   scanf("%d", &h);
 //   ar = pi*r*r*h;
-//   printf("\narea of the rectangle is %f\n", ar);
+//   printf("\n volume of the circle is : %f\n", ar);
 // }
 
 
@@ -45,7 +45,7 @@
 //   printf("enter degree in celsius : ");
 //   scanf("%d", &d);
 //   temp = (d*9/5)+32;
-//   printf("\narea of the rectangle is %d\n", temp);
+//   printf("\n degree in Fahrenheit : %d\n", temp);
 // }
 
 
@@ -53,9 +53,13 @@
 
 void main() 
 {
-  int temp, d;
-  printf("enter degree in celsius : ");
-  scanf("%d", &d);
-  temp = (d*9/5)+32;
-  printf("\narea of the rectangle is %d\n", temp);
+  int si, p, r, t;
+  printf("enter profit : ");
+  scanf("%d", &p);
+  printf("enter rate : ");
+  scanf("%d", &r);
+  printf("enter time : ");
+  scanf("%d", &t);
+  si = (p*r*t)/100;
+  printf("\Simple Intrest is : %d\n", si);
 }
